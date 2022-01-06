@@ -51,22 +51,6 @@ extension HomeController :UITableViewDataSource,UITableViewDelegate {
         return cell
     }
 }
-
-
-// MARK: - Navigation
-extension HomeController {
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        switch segue.identifier {
-
-        case .some("segueDetailAttendee"):
-    
-            break;
-            
-        default:
-            break
-        }
-    }
     
 }
 
